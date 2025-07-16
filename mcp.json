@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "microsoft-docs": {
+      "type": "streamableHttp",
+      "url": "https://learn.microsoft.com/api/mcp",
+      "disabled": false,
+      "autoApprove": []
+    },
+    "github": {
+      "type": "streamableHttp",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+				"Authorization": "bearer github_pat"
+			}
+    }
+  }
+}
